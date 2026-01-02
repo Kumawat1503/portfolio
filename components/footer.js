@@ -6,9 +6,7 @@ function Footer() {
       data-file="components/Footer.js"
     >
       <p className="text-gray-500 text-sm">
-        &copy; {new Date().getFullYear()} Kashish. Built with{" "}
-        <span className="text-[var(--primary-cyan)]">React</span> &{" "}
-        <span className="text-[var(--primary-purple)]">Neural Networks</span>.
+        &copy; {new Date().getFullYear()} Kashish.
       </p>
     </footer>
   );
