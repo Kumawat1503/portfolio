@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kashish | ML Engineer Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Kashish, a Machine Learning Engineer specializing in AI scaling, PyTorch, and AWS."
+    />
+    <meta
+      name="keywords"
+      content="Machine Learning, AI, Portfolio, Kashish, Kota, India, PyTorch, AWS, Deep Learning"
+    />
+
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://resource.trickle.so/vendor_lib/unpkg/lucide-static@0.516.0/font/lucide.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style type="text/tailwindcss">
+      @layer theme {
+        :root {
+          --bg-dark: #030014;
+          --primary-cyan: #00f3ff;
+          --primary-purple: #bc13fe;
+          --glass-bg: rgba(255, 255, 255, 0.03);
+          --glass-border: rgba(255, 255, 255, 0.1);
+        }
+      }
+
+      @layer base {
+        body {
+          font-family: "Inter", sans-serif;
+          background-color: var(--bg-dark);
+          color: #ffffff;
+          overflow-x: hidden;
+        }
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+          font-family: "Space Grotesk", sans-serif;
+        }
+      }
+
+      @layer components {
+        .glass-card {
+          @apply bg-[var(--glass-bg)] border border-[var(--glass-border)] backdrop-blur-sm rounded-xl;
+        }
+        .btn-glow {
+          @apply relative overflow-hidden transition-all duration-300;
+        }
+        .btn-glow::before {
+          content: "";
+          @apply absolute inset-0 bg-gradient-to-r from-[var(--primary-cyan)] to-[var(--primary-purple)] opacity-0 transition-opacity duration-300;
+        }
+        .btn-glow:hover::before {
+          @apply opacity-20;
+        }
+        .text-glow-cyan {
+          text-shadow: 0 0 10px rgba(0, 243, 255, 0.5);
+        }
+        .text-glow-purple {
+          text-shadow: 0 0 10px rgba(188, 19, 254, 0.5);
+        }
+      }
+
+      @layer utilities {
+        .animation-delay-200 {
+          animation-delay: 200ms;
+        }
+        .animation-delay-400 {
+          animation-delay: 400ms;
+        }
+      }
+    </style>
+  </head>
+  <body class="antialiased">
+    <div id="root"></div>
+    <script type="text/babel" src="components/ParticleBackground.js"></script>
+    <script type="text/babel" src="components/Navbar.js"></script>
+    <script type="text/babel" src="components/Hero.js"></script>
+    <script type="text/babel" src="components/Projects.js"></script>
+    <script type="text/babel" src="components/Skills.js"></script>
+    <script type="text/babel" src="components/Timeline.js"></script>
+    <script type="text/babel" src="components/Contact.js"></script>
+    <script type="text/babel" src="components/Footer.js"></script>
+    <script type="text/babel" src="app.js"></script>
+  </body>
+</html>
