@@ -47,10 +47,10 @@ function Contact() {
                 <div>
                   <h4 className="text-white font-bold mb-1">Email</h4>
                   <a
-                    href="mailto:contact@kashish.ai"
+                    href="mailto:kashkumawat9@gmail.com"
                     className="text-gray-400 hover:text-white transition-colors"
                   >
-                    contact@kashish.ai
+                    kashkumawat9@gmail.com
                   </a>
                 </div>
               </div>
@@ -59,22 +59,16 @@ function Contact() {
                 <p className="text-sm text-gray-500 mb-4">Connect on Socials</p>
                 <div className="flex gap-4">
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/kashish-kumawat-539757226/"
                     className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-white hover:text-black transition-all"
                   >
                     <div className="icon-linkedin"></div>
                   </a>
                   <a
-                    href="#"
+                    href="https://github.com/Kumawat1503"
                     className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-white hover:text-black transition-all"
                   >
                     <div className="icon-github"></div>
-                  </a>
-                  <a
-                    href="#"
-                    className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-white hover:text-black transition-all"
-                  >
-                    <div className="icon-twitter"></div>
                   </a>
                 </div>
               </div>
