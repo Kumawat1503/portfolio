@@ -2,37 +2,33 @@ function Timeline() {
   const timeline = [
     {
       year: "2025 - Present",
-      role: "Machine Learning Engineer",
-      company: "Stealth Startup",
-      desc: "Leading the development of generative AI models for automated content creation.",
+      role: "MLOps Engineer",
+      company: "Aftershoot",
+      desc: "Building and maintaining ML infrastructure, model serving pipelines, and observability systems.",
     },
     {
       year: "2024",
-      role: "AWS Certified Solutions Architect",
-      company: "Certification",
-      desc: "Mastered cloud infrastructure, serverless computing, and scalable ML pipelines.",
+      role: "ML Engineer Intern",
+      company: "YouDataAI",
+      desc: "Worked on machine learning models and data pipelines.",
     },
     {
-      year: "2023",
-      role: "Software Engineer Intern",
-      company: "Tech Corp",
-      desc: "Built backend microservices in Go and optimized database queries.",
+      year: "2021 - 2025",
+      role: "B.Tech, Electrical Engineering",
+      company: "IIT Delhi",
+      desc: "Studied Electrical Engineering with strong coursework in CS and ML. Built several side projects spanning systems programming and machine learning.",
     },
   ];
 
   const routine = [
-    { time: "06:00 AM", task: "LeetCode Challenge", icon: "icon-code" },
-    {
-      time: "08:00 AM",
-      task: "Deep Work: ML Research",
-      icon: "icon-book-open",
-    },
-    { time: "06:00 PM", task: "Cloud Projects / Building", icon: "icon-cloud" },
-    {
-      time: "09:00 PM",
-      task: "Documentation & Review",
-      icon: "icon-file-text",
-    },
+    { time: "5:00 - 6:00 AM", task: "LeetCode", icon: "icon-code" },
+    { time: "6:00 - 7:00 AM", task: "Deep Work: ML Research", icon: "icon-book-open" },
+    { time: "7:00 - 8:00 AM", task: "Communication", icon: "icon-message-circle" },
+    { time: "8:00 - 9:00 AM", task: "Gym", icon: "icon-activity" },
+    { time: "9:00 - 10:00 AM", task: "Ready", icon: "icon-sun" },
+    { time: "10:00 AM - 6:00 PM", task: "Office Hours", icon: "icon-briefcase" },
+    { time: "9:00 - 10:00 PM", task: "System Design", icon: "icon-layers" },
+    { time: "10:00 - 10:30 PM", task: "Journal", icon: "icon-file-text" },
   ];
 
   return (

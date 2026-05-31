@@ -52,6 +52,7 @@ function App() {
         <Hero />
         <Projects />
         <Skills />
+        <MLOpsRoadmap />
         <Timeline />
         <Contact />
         <Footer />

@@ -3,33 +3,6 @@ function Projects() {
 
   const projects = [
     {
-      title: "Neural Style Transfer",
-      desc: "Deep learning model that merges artistic style with content images using VGG19 architecture.",
-      tech: ["PyTorch", "Python", "CNN"],
-      category: "Computer Vision",
-      metrics: "Loss: < 0.05",
-      github: "#",
-      demo: "#",
-    },
-    {
-      title: "AWS AutoScaler Bot",
-      desc: "Intelligent resource management system for EC2 instances based on predictive traffic analysis.",
-      tech: ["AWS Lambda", "Python", "Boto3"],
-      category: "AWS/Cloud",
-      metrics: "Cost Saving: 35%",
-      github: "#",
-      demo: "#",
-    },
-    {
-      title: "Sentiment Analyzer",
-      desc: "Real-time NLP pipeline processing customer feedback with transformer-based models.",
-      tech: ["HuggingFace", "FastAPI", "React"],
-      category: "NLP",
-      metrics: "Accuracy: 94%",
-      github: "#",
-      demo: "#",
-    },
-    {
       title: "LeetCode Tracker",
       desc: "Discord bot that gamifies LeetCode progress for study groups with daily challenges.",
       tech: ["Go", "PostgreSQL", "Discord API"],
@@ -38,37 +11,11 @@ function Projects() {
       github: "#",
       demo: "#",
     },
-    {
-      title: "Object Detection API",
-      desc: "Scalable YOLOv8 microservice deployed on Kubernetes for real-time video analysis.",
-      tech: ["YOLO", "Docker", "K8s"],
-      category: "Computer Vision",
-      metrics: "FPS: 45+",
-      github: "#",
-      demo: "#",
-    },
-    {
-      title: "Predictive Maintenance",
-      desc: "Time-series forecasting for industrial equipment failure prediction.",
-      tech: ["TensorFlow", "Pandas", "Scikit-learn"],
-      category: "ML/AI",
-      metrics: "Precision: 0.89",
-      github: "#",
-      demo: "#",
-    },
   ];
 
-  const categories = ["All", "Computer Vision", "NLP", "AWS/Cloud", "ML/AI"];
+  const categories = ["All"];
 
-  const filteredProjects =
-    filter === "All"
-      ? projects
-      : projects.filter(
-          (p) =>
-            p.category === filter ||
-            (filter === "ML/AI" &&
-              !["Computer Vision", "NLP", "AWS/Cloud"].includes(p.category)),
-        );
+  const filteredProjects = projects;
 
   return (
     <section

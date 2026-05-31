@@ -1,17 +1,14 @@
 function Skills() {
   const skills = [
-    { name: "Python", level: 95, color: "#3776AB" },
-    { name: "PyTorch / TensorFlow", level: 90, color: "#EE4C2C" },
-    { name: "AWS Services", level: 85, color: "#FF9900" },
-    { name: "Go (Golang)", level: 75, color: "#00ADD8" },
+    { name: "Python", level: 60, color: "#3776AB" },
+    { name: "PyTorch / TensorFlow", level: 50, color: "#EE4C2C" },
     { name: "C++", level: 80, color: "#00599C" },
     { name: "Pandas / NumPy", level: 92, color: "#150458" },
   ];
 
   const achievements = [
-    { number: "500+", label: "LeetCode Problems", icon: "icon-code" },
-    { number: "15+", label: "ML Projects", icon: "icon-brain" },
-    { number: "3", label: "Hackathon Wins", icon: "icon-trophy" },
+    { number: "400+", label: "LeetCode Problems", icon: "icon-code" },
+    { number: "4", label: "ML Projects", icon: "icon-brain" },
     {
       number: "AWS",
       label: "Certified Solutions Architect",
@@ -83,28 +80,6 @@ function Skills() {
               ))}
             </div>
 
-            {/* Mini Terminal */}
-            <div className="mt-8 bg-black border border-gray-800 rounded-lg p-4 font-mono text-sm shadow-2xl">
-              <div className="flex gap-2 mb-4 border-b border-gray-800 pb-2">
-                <div className="w-3 h-3 rounded-full bg-red-500"></div>
-                <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
-                <div className="w-3 h-3 rounded-full bg-green-500"></div>
-              </div>
-              <div className="text-gray-300 space-y-2">
-                <p>
-                  <span className="text-green-400">➜</span>{" "}
-                  <span className="text-blue-400">~</span> current_focus
-                </p>
-                <p className="pl-4 text-gray-400">
-                  "Reinforcement Learning & LLM Fine-tuning"
-                </p>
-                <p>
-                  <span className="text-green-400">➜</span>{" "}
-                  <span className="text-blue-400">~</span> location
-                </p>
-                <p className="pl-4 text-gray-400">"Kota, Rajasthan, India"</p>
-              </div>
-            </div>
           </div>
         </div>
       </div>
