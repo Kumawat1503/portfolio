@@ -53,6 +53,7 @@ function App() {
         <Projects />
         <Skills />
         <MLOpsRoadmap />
+        <WeeklyPlan />
         <Timeline />
         <Contact />
         <Footer />

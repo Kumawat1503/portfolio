@@ -22,6 +22,7 @@ function Navbar() {
     { name: "Projects", id: "projects" },
     { name: "Skills", id: "skills" },
     { name: "MLOps", id: "mlops-roadmap" },
+    { name: "Weekly", id: "weekly-plan" },
     { name: "Timeline", id: "timeline" },
     { name: "Contact", id: "contact" },
   ];
