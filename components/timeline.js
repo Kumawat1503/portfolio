@@ -21,8 +21,8 @@ function Timeline() {
   ];
 
   const routine = [
-    { time: "5:00 - 6:00 AM", task: "LeetCode", icon: "icon-code" },
-    { time: "6:00 - 7:00 AM", task: "Deep Work: ML Research", icon: "icon-book-open" },
+    { time: "5:00 - 6:00 AM", task: "Deep Work: ML Research", icon: "icon-book-open" },
+    { time: "6:00 - 7:00 AM", task: "LeetCode", icon: "icon-code" },
     { time: "7:00 - 8:00 AM", task: "Communication", icon: "icon-message-circle" },
     { time: "8:00 - 9:00 AM", task: "Gym", icon: "icon-activity" },
     { time: "9:00 - 10:00 AM", task: "Ready", icon: "icon-sun" },
